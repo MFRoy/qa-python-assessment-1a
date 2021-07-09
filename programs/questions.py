@@ -137,9 +137,14 @@ def three(arg1):
 
     # help(int) for working with numbers and help(str) for working with Strings.
 
-# def four(arg1):
-#     a =list((arg1))
-#     b =sum(a)
+def four(arg1):
+    a =list((arg1))
+    b =sum(a)
+    total = 0
+    for x in a:
+        total += x
+    return total
+
 
 # arg1 ="23 45 64"
 # print(four(arg1))
