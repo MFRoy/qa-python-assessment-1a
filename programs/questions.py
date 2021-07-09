@@ -45,9 +45,9 @@ def one(input1, input2):
         len(input1)<len(input2)
         return input2
 
-input1="hello"
-input2="allll"  
-print(one(input1,input2))
+# input1="hello"
+# input2="allll"  
+# print(one(input1,input2))
 
 
 
@@ -73,8 +73,16 @@ print(one(input1,input2))
 
     # Use your CLI to access the Python documentation and get help manipulating strings - help(str).
 
-def two(input):
-    pass
+# def two(input):
+#     input.lower()
+#     for line in input:
+#         if not inRecordingMode:
+#             if line.startswith('bert'):
+#                 inRecordingMode = True
+#         elif line.startswith('bert'):
+#             inRecordingMode = False
+#         else:
+#             print ("")
 
 
     # <QUESTION 3>
@@ -97,7 +105,14 @@ def two(input):
     # No Hints for this question
 
 def three(arg1):
-    pass
+    if arg1 % 5==0 and arg1 %3==0:
+        return "fizzbuzz"
+    elif arg1 % 3==0:
+        return "fizz"
+    elif arg1 % 5==0:
+        return "buzz"
+    else:
+        return "null"
 
 
     # <QUESTION 4>
@@ -190,9 +205,15 @@ def six(input):
 
     # How do we ignore case in a String? help(str) may offer some insight.
 
-def seven(input):
-    pass
-
+# def seven(input):
+#     a =input
+#     vowels =("a","e","i","o","u")
+#     for v in input.lower():
+#         if v in vowels:
+#             a = a+1
+#     return a
+# input = "hello"
+# print(seven(input))
 
     # <QUESTION 8>
 
@@ -231,9 +252,19 @@ def eight(input):
 
     # Take a look at the documentation for Strings, List and range.
 
-def nine(inputString, char):
-    pass
+# def nine(inputString, char):
+#     inputstring.strip()
+#     a = inputString.find(char)
+#     a = a+1
+#     if a ==0:
+#         return "-1"
+#     else:
+#         return a
 
+
+# inputstring="this is a Sentance"
+# char="S"
+# print(nine(inputstring,char))
 
     # <QUESTION 10>
 
