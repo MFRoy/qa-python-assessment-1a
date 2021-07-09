@@ -218,8 +218,7 @@ def seven(input):
 #         if v in vowels:
 #             a = a + 1
 #     return a
-input = "hello"
-print(seven(input))
+
 
     # <QUESTION 8>
 
@@ -258,18 +257,20 @@ def eight(input):
 
     # Take a look at the documentation for Strings, List and range.
 
-# def nine(inputString, char):
-#     inputstring.strip()
-#     a = inputString.find(char)
-#     a = a+1
-#     if a ==0:
-#         return "-1"
-#     else:
-#         return a
+def nine(inputString, char):
+    b=inputString.replace(" ", "")
+    a = b.find(char)
+    if a <0:
+        return -1
+    else:
+        return a+1
 
 
-# inputstring="this is a Sentance"
-# char="S"
+# inputstring="This is a Sentence"
+# char="s"
+# print(nine(inputstring,char))
+# inputstring="I LOVE PYTHON"
+# char="L"
 # print(nine(inputstring,char))
 
     # <QUESTION 10>
