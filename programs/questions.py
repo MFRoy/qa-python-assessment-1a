@@ -193,7 +193,16 @@ def five(input):
     # Step through the logic here in order to solve the problem, you may find help(range) helpful.
 
 def six(input):
-    pass
+    if "cie" in input:
+        return False
+    elif "cei" in input:
+        return True
+    elif "ei" in input:
+        return False
+    elif "ie" in input:
+        return True
+    else:
+        return True
 
 
     # <QUESTION 7>
