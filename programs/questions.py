@@ -137,8 +137,13 @@ def three(arg1):
 
     # help(int) for working with numbers and help(str) for working with Strings.
 
-def four(arg1):
-    pass
+# def four(arg1):
+#     a =list((arg1))
+#     b =sum(a)
+
+# arg1 ="23 45 64"
+# print(four(arg1))
+
 
 
     # <QUESTION 5>
@@ -205,15 +210,16 @@ def six(input):
 
     # How do we ignore case in a String? help(str) may offer some insight.
 
-# def seven(input):
-#     a =input
-#     vowels =("a","e","i","o","u")
+def seven(input):
+    input =input.lower()
+    vowels =("a","e","i","o","u")
+    return len([i for i in input if i in vowels])
 #     for v in input.lower():
 #         if v in vowels:
-#             a = a+1
+#             a = a + 1
 #     return a
-# input = "hello"
-# print(seven(input))
+input = "hello"
+print(seven(input))
 
     # <QUESTION 8>
 
